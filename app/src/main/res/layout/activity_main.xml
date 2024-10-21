@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="ANA_UF1_ACT4"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+
+    <!-- Imatge -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:visibility="visible"
+        android:src="@drawable/img_1"
+        android:contentDescription="iMATGE" />
+
+    <!-- Botó per imprimir en Logcat -->
+    <Button
+        android:id="@+id/buttonLogcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="4dp"
+        android:insetTop="16dp"
+        android:insetRight="4dp"
+        android:insetBottom="16dp"
+        android:text="Logcat" />
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="4dp"
+        android:insetTop="16dp"
+        android:insetRight="4dp"
+        android:insetBottom="16dp"
+        android:text="Toast" />
+
+</LinearLayout>
